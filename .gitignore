@@ -1,6 +1,8 @@
-/ASkyblock_*
+/ASkyBlock_*
+/ASkyBlock
 /crash-reports
 /logs
+/world
 /world_*
 /*.json
 /*.bat
