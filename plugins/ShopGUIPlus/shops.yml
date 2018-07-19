@@ -1,0 +1,126 @@
+shops:
+  blocks:
+    name: "&9&lBlocks (trang %page%)"
+    fillItem:
+        material: STAINED_GLASS_PANE
+        damage: 15
+        name: " "
+    items:
+      0:
+        type: item
+        item:
+          material: COBBLESTONE
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 1
+        slot: 0
+      1:
+        type: item
+        item:
+          material: LOG
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 0.65
+        slot: 1
+      2:
+        type: item
+        item:
+          material: GRASS
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 18
+      3:
+        type: item
+        item:
+          material: SAND
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 19
+      4:
+        type: item
+        item:
+          material: OBSIDIAN
+          quantity: 1
+        buyPrice: 300
+        sellPrice: -1
+        slot: 20
+  food:
+    name: "&2&lThức ăn (trang %page%)"
+    fillItem:
+        material: STAINED_GLASS_PANE
+        damage: 15
+        name: " "
+    items:
+      1:
+        type: item
+        item:
+          material: BREAD
+          quantity: 2
+        buyPrice: 1
+        sellPrice: -1
+        slot: 0
+      2:
+        type: item
+        item:
+          material: COOKED_BEEF
+          quantity: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 1
+      3:
+        type: item
+        item:
+          material: COOKED_CHICKEN
+          quantity: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 2
+      4:
+        type: item
+        item:
+          material: GRILLED_PORK
+          quantity: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 3
+  farm:
+    name: "&2&lFarm (trang %page%)"
+    fillItem:
+        material: STAINED_GLASS_PANE
+        damage: 15
+        name: " "
+    items:
+      1:
+        type: item
+        item:
+          material: SUGAR_CANE
+          quantity: 1
+        buyPrice: 1
+        sellPrice: 0.5
+        slot: 0
+      2:
+        type: item
+        item:
+          material: CACTUS
+          quantity: 1
+        buyPrice: 1
+        sellPrice: 0.5
+        slot: 1
+  mobs:
+    name: "&2&lLồng và Quái (trang %page%)"
+    fillItem:
+        material: STAINED_GLASS_PANE
+        damage: 15
+        name: " "
+    items:
+      1:
+        type: item
+        item:
+          material: MOB_SPAWNER
+          quantity: 1
+        buyPrice: 1
+        sellPrice: -1
+        slot: 0
+                

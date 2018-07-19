@@ -1,0 +1,81 @@
+name: default
+permissions:
+- ChestShop.shop.*:
+    value: true
+    server: skyblock
+- askyblock.settings.*:
+    value: true
+    server: skyblock
+- ChestShop.shop.buy:
+    value: true
+    server: skyblock
+- ChestShop.shop.sell:
+    value: true
+    server: skyblock
+- askyblock.coop:
+    value: true
+    server: skyblock
+- chatformat.default:
+    value: true
+    server: skyblock
+- deluxechat.pm:
+    value: true
+    server: skyblock
+- deluxechat.utf:
+    value: true
+    server: skyblock
+- essentials.balance:
+    value: true
+    server: skyblock
+- essentials.balancetop:
+    value: true
+    server: skyblock
+- essentials.pay:
+    value: true
+    server: skyblock
+- essentials.spawn:
+    value: true
+    server: skyblock
+- essentials.tpa:
+    value: true
+    server: skyblock
+- essentials.tpaccept:
+    value: true
+    server: skyblock
+- quickshop.create.buy:
+    value: true
+    server: skyblock
+- quickshop.create.sell:
+    value: true
+    server: skyblock
+- quickshop.use:
+    value: true
+    server: skyblock
+- shopguiplus.bypassgamemode:
+    value: true
+    server: skyblock
+- shopguiplus.bypassworld:
+    value: true
+    server: skyblock
+- shopguiplus.shop:
+    value: true
+    server: skyblock
+- shopguiplus.shops.blocks:
+    value: true
+    server: skyblock
+- shopguiplus.shops.farm:
+    value: true
+    server: skyblock
+- shopguiplus.shops.food:
+    value: true
+    server: skyblock
+- skinsrestorer.playercmds:
+    value: true
+    server: skyblock
+- skinsrestorer.playercmds.menu:
+    value: true
+    server: skyblock
+prefixes:
+- Member:
+    priority: 1
+    server: skyblock

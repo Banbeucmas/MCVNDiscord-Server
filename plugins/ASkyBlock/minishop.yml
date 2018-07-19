@@ -1,0 +1,21 @@
+# This is a minishop. Minishop can be allowed via permissions
+# See examples for the format
+# If selling is allowed, right click will sell the item to the shop
+# description can include color codes using & and new lines using |
+
+config:
+   allowselling: true
+# Add items in the same format to sell or buy more
+items:
+   item1:
+      material: COBBLESTONE
+      quantity: 10
+      sellprice: 10
+   item2:
+      material: DIRT
+      quantity: 4
+      price: 50
+   item3:
+      material: BREAD
+      quantity: 20
+      price: 10

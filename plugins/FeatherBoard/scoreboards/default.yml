@@ -1,0 +1,101 @@
+# Default FeatherBoard comes with a board called "default". All players have the permission
+# featherboard.group.default  (by default) meaning all players should see the scoreboard unless
+# the permission is negated.
+
+# Example of the use of settings
+# This section is optional
+settings:
+  # If you quickly want to change the
+  # the label color change it here.
+  # It replaces $setting_label-color$ throughout the entire config
+  label-color: "&5"
+  # Show or hide the health
+  # This is an example of the script
+  show-health: true
+  # The priority of the scoreboard. The higher the number -> higher priority
+  # Used when having more than one scoreboard assigned
+  priority: 10
+
+# Example of pre processing script
+# This section is optional
+script-pre: |
+    if (settings['show-health'] == "true"){
+        board.getMeta().setSetting("enable-health","");
+    }else{
+        board.getMeta().setSetting("enable-health","|disabled|");
+    }
+
+# This section is required. Those are your scoreboard lines
+lines:
+  # Every section here are different lines. The first section will be used as the title
+  # the following sections will be used as the lines on the scoreboard (max 15)
+  # Just as the scoreboard names you can name these 'lines' whatever you want. But to make
+  # things simple I will use logical names such as "title", "spacer", "header", ...
+  title:
+    # Every line has its own frames. The animation will loop through these frames on intervals
+    # that you configure below.
+    # Put all your frames under 'text:'. You can make as many lines as you want and use
+    # placeholders and preset effects.
+    # Keep in mind that there is a limit in line width!
+    frames:
+    - '&5&lS'
+    - '&5&lSk'
+    - '&5&lSky'
+    - '&5&lSkyb'
+    - '&5&lSkybl'
+    - '&5&lSkyblo'
+    - '&5&lSkybloc'
+    - '&5&lSkyblock'
+    - '&d&lSkyblock'
+    - '&d&lSkyblock'
+    - '&5&lSkyblock'
+    - '&5&lSkyblock'
+    - '&d&lSkyblock'
+    - '&d&lSkyblock'
+    - '&5&lSkyblock'
+    - '&5&lSkyblock'
+    interval: 5
+    random: false
+  header:
+    frames:
+    - '&f┏'
+    interval: 300
+    random: false
+  player:
+    frames:
+    - '&f┣$setting_label-color$Player: &d{placeholderapi_player_name}'
+    interval: 100
+    random: false
+  player_balance:
+    frames:
+    - '&f┣$setting_label-color$Money: &f{placeholderapi_vault_eco_balance_fixed}&d$'
+    interval: 10
+    random: false
+  crossline1:
+    frames:
+    - '&f┃'
+    interval: 100
+    random: false
+  # For empty lines just add another 'section' but just don't put any text
+  # in it so it acts like an empty line.
+  island_Leader:
+    frames:
+    - '&f┣$setting_label-color$Leader: &f{placeholderapi_askyblock_owner}'
+    interval: 10
+    random: false
+  island_Level:
+    frames:
+    - '&f┣$setting_label-color$Level: &f{placeholderapi_askyblock_level}'
+    interval: 10
+    random: false
+  island_team_size:
+    frames:
+    - '&f┣$setting_label-color$Team: &f{placeholderapi_askyblock_team_size}'
+    interval: 10
+    random: false
+  footer:
+    frames:
+    - '&f┗'
+    interval: 300
+    random: false
+

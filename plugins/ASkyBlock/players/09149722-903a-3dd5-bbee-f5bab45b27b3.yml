@@ -1,0 +1,134 @@
+playerName: ShadowKyra
+hasIsland: true
+islandLocation: ASkyBlock:0:115:512:0:0
+hasTeam: false
+teamLeader: ''
+islandLevel: 0
+members: []
+resetsLeft: 2
+deaths: 5
+locale: ''
+useControlPanel: false
+startIslandRating: 50
+teamIslandLocation: ''
+homeLocations:
+  '1': ASkyBlock:0:117:512:0:0
+challenges:
+  status:
+    expert: false
+    advanced: false
+    dj: false
+    craftsman: false
+    beaconator: false
+    stewmaker: false
+    enderpearls: false
+    pioneer: false
+    shepherd: false
+    culinaryartist: false
+    acidduke: false
+    ittakesavillage: false
+    elite: false
+    homestead: false
+    mason: false
+    builder: false
+    dyemaker: false
+    itsamonsterparty: false
+    glassmaker: true
+    novice: false
+    nether: false
+    alchemist: false
+    gemcollector: false
+    grinder: false
+    papermaker: false
+    cobblemaker: true
+    seedbank: false
+    cookiemaker: false
+    slimeballfarmer: false
+    itsaparty: false
+    competent: false
+    baker: false
+    breadmaker: false
+    myprecious: false
+    snowplay: false
+    farmer: false
+    angler: false
+    treecutter: false
+  times:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 0
+    beaconator: 0
+    stewmaker: 0
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 0
+    mason: 0
+    builder: 0
+    dyemaker: 0
+    itsamonsterparty: 0
+    glassmaker: 2
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 0
+    papermaker: 0
+    cobblemaker: 3
+    seedbank: 0
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 0
+    baker: 0
+    breadmaker: 0
+    myprecious: 0
+    snowplay: 0
+    farmer: 0
+    angler: 0
+    treecutter: 0
+  timestamp:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 0
+    beaconator: 0
+    stewmaker: 0
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 0
+    mason: 0
+    builder: 0
+    dyemaker: 0
+    itsamonsterparty: 0
+    glassmaker: 1528632903893
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 0
+    papermaker: 0
+    cobblemaker: 1528976674321
+    seedbank: 0
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 0
+    baker: 0
+    breadmaker: 0
+    myprecious: 0
+    snowplay: 0
+    farmer: 0
+    angler: 0
+    treecutter: 0
+islandInfo: 0:115:512:100:512:09149722-903a-3dd5-bbee-f5bab45b27b3:false:false:11000000000001100000100000000101111000000000111:FOREST:9

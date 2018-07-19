@@ -1,0 +1,22 @@
+lastAccountName: Banbeucmas
+timestamps:
+  login: 1532015233396
+  logout: 1532015233861
+  lastteleport: 1528894490211
+ipAddress: 14.177.108.254
+logoutlocation:
+  world: ASkyBlock
+  x: -7.993286780100915
+  y: 116.0
+  z: -5.300000011920928
+  yaw: -233.99951
+  pitch: 29.400085
+lastlocation:
+  world: ASkyBlock
+  x: -2.121515595690933
+  y: 116.0
+  z: -1.2666122053601
+  yaw: 45.30356
+  pitch: 8.549999
+afk: false
+money: '836.5'

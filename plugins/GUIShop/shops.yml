@@ -1,0 +1,8 @@
+Blocks:
+  '1':
+  - id: 'COBBLESTONE:0'
+  - slot: 0
+  - name: 'Creeper Spawner'
+  - buy-price: -1
+  - sell-price: 1.0
+  - enchantments: ''

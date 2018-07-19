@@ -1,0 +1,9 @@
+/ASkyblock_*
+/crash-reports
+/logs
+/world_*
+/*.json
+/*.bat
+/*.sh
+/*.jar
+/plugins/*.jar

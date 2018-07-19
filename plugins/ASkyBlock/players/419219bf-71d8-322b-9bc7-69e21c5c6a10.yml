@@ -1,0 +1,136 @@
+playerName: NobiPumpkin_VN
+hasIsland: true
+islandLocation: ASkyBlock:0:115:-512:0:0
+hasTeam: true
+teamLeader: 419219bf-71d8-322b-9bc7-69e21c5c6a10
+teamIslandLocation: ASkyBlock:0:115:-512:0:0
+islandLevel: 455
+members:
+- f5dc876a-ecc1-32c6-a9c6-e043710d4077
+- 419219bf-71d8-322b-9bc7-69e21c5c6a10
+resetsLeft: 2
+deaths: 6
+locale: vn-VN
+useControlPanel: false
+startIslandRating: 50
+homeLocations:
+  '1': ASkyBlock:2:119:-512:-1014614860:-1076915446
+challenges:
+  status:
+    expert: false
+    advanced: false
+    dj: false
+    craftsman: true
+    beaconator: false
+    stewmaker: true
+    enderpearls: false
+    pioneer: false
+    shepherd: false
+    culinaryartist: false
+    acidduke: false
+    ittakesavillage: false
+    elite: false
+    homestead: true
+    mason: false
+    builder: true
+    dyemaker: true
+    itsamonsterparty: false
+    glassmaker: false
+    novice: false
+    nether: false
+    alchemist: false
+    gemcollector: false
+    grinder: true
+    papermaker: true
+    cobblemaker: true
+    seedbank: true
+    cookiemaker: false
+    slimeballfarmer: false
+    itsaparty: false
+    competent: true
+    baker: false
+    breadmaker: true
+    myprecious: false
+    snowplay: false
+    farmer: true
+    angler: false
+    treecutter: false
+  times:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 1
+    beaconator: 0
+    stewmaker: 1
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 1
+    mason: 0
+    builder: 1
+    dyemaker: 1
+    itsamonsterparty: 0
+    glassmaker: 0
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 3
+    papermaker: 1
+    cobblemaker: 16
+    seedbank: 1
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 1
+    baker: 0
+    breadmaker: 1
+    myprecious: 0
+    snowplay: 0
+    farmer: 1
+    angler: 0
+    treecutter: 0
+  timestamp:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 1529072938409
+    beaconator: 0
+    stewmaker: 1528894649476
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 1528896541068
+    mason: 0
+    builder: 1528720020206
+    dyemaker: 1528894692088
+    itsamonsterparty: 0
+    glassmaker: 0
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 1528979352589
+    papermaker: 1528894680133
+    cobblemaker: 1528908227104
+    seedbank: 1528893761223
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 0
+    baker: 0
+    breadmaker: 1528729476529
+    myprecious: 0
+    snowplay: 0
+    farmer: 1529062063265
+    angler: 0
+    treecutter: 0
+islandInfo: 0:115:-512:100:512:419219bf-71d8-322b-9bc7-69e21c5c6a10:false:false:11000000000001101000100000000101111000100000111:PLAINS:3

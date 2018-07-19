@@ -1,0 +1,47 @@
+## --------------------------------------- ##
+## Adding ASkyBlock placeholders Placeholders
+## http://www.spigotmc.org/resources/a-skyblock.1220/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {askyblock_team_leader_isonline_raw} returns
+askyblock_team_leader_isonline_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {askyblock_island_chunk_isloaded_raw} returns
+askyblock_island_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {askyblock_island_owner_isonline} returns
+askyblock_island_owner_isonline:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {askyblock_home_chunk_isloaded_raw} returns
+askyblock_home_chunk_isloaded_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

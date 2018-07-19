@@ -1,0 +1,9 @@
+welcome:
+  location: world, -13.267, 75.117, -1.478
+  lines:
+  - '&5&lMinecraft Vietnam Discord Private Server'
+  - '&dChào mừng đến với server &5{player}'
+  - '&dCái spawn không có ý nghĩa gì đâu, làm màu thôi'
+  - ''
+  - '&dHãy nhớ đọc luật tại &5bài ghim &dở &5#skyblock'
+  - '&5/is &dĐể bắt đầu chơi'
