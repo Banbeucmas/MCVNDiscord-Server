@@ -12,5 +12,13 @@
 !/plugins/Mantle*.jar
 /plugins/DiscordSRV/config.yml
 /plugins/MVdWPlaceholderAPI/placeholders
-/plugins/MVdWPlugin
+/plugins/Essentials/userdata
+/plugins/Essentials/warps
+/plugins/ASkyBlock/players
+/plugins/AuthMe/playerdata/*.db
+/plugins/AuthMe/*.log
+/plugins/LuckPerms/lib
+/plugins/LuckPerms/yaml-storage/users
+/plugins/LuckPerms/*.db
+/plugins/LuckPerms/*.json
 /*.log
