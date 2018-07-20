@@ -97,10 +97,10 @@ settings:
         enabled: false
         # After how many minutes should a session expire?
         # A player's session ends after the timeout or if his IP has changed
-        timeout: 10
+        timeout: 30
     # Message language, available languages:
     # https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md
-    messagesLanguage: 'en'
+    messagesLanguage: 'vn'
     # Forces authme to hook into Vault instead of a specific permission handler system.
     forceVaultHook: false
     # Log level: INFO, FINE, DEBUG. Use INFO for general messages,
@@ -171,7 +171,7 @@ settings:
         # Should unregistered players be kicked immediately?
         kickNonRegistered: false
         # Should players be kicked on wrong password?
-        kickOnWrongPassword: true
+        kickOnWrongPassword: false
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
@@ -180,7 +180,7 @@ settings:
         allowMovement: false
         # After how many seconds should players who fail to login or register
         # be kicked? Set to 0 to disable.
-        timeout: 30
+        timeout: 60
         # Regex pattern of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk?
@@ -307,7 +307,7 @@ settings:
     # Should we remove leave messages altogether?
     removeLeaveMessage: false
     # Do we need to add potion effect Blinding before login/reigster?
-    applyBlindEffect: false
+    applyBlindEffect: true
     # Do we need to prevent people to login with another case?
     # If Xephi is registered, then Xephi can login, but not XEPHI/xephi/XePhI
     preventOtherCase: true
