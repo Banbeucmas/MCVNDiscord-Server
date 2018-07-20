@@ -12,6 +12,7 @@
 !/plugins/Mantle*.jar
 /plugins/DiscordSRV/config.yml
 /plugins/MVdWPlaceholderAPI/placeholders
+/plugins/MVdWPlugin
 /plugins/Essentials/userdata
 /plugins/Essentials/warps
 /plugins/ASkyBlock/players
