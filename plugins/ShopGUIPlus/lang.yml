@@ -3,7 +3,7 @@ LANG:
   CONSOLE: Console
 MSG:
   ERROR: Đã xảy ra trục trặc, hãy liên hệ với chủ sv để được hỗ trợ.
-  INGAMEONLY: Lệnh này chỉ có thể sử dụng trong game.
+  INGAMEONLY: Lệnh này chỉ có thể sử dụng trong trò chơi.
   NOACCESS: Bạn không có quyền truy cập để thực hiện lệnh.
   NOTLOADED: Dữ liệu của bạn không được tải, hãy thử lại sau.
   NOTLOADEDTARGET: Dữ liệu của người chơi này không được tải, hãy thử lại sau.
@@ -68,16 +68,16 @@ MSG:
     SELL: sell
     BOTH: buy & sell
   INVALIDPLAYER: Tên người dùng này không hợp lệ.
-  INVALIDSHOP: Không thể tìm thấy shop có mã ID &c%shop%&f.
+  INVALIDSHOP: Không thể tìm thấy shop có ID &c%shop%&f.
   INVALIDITEM: Không thể tìm thấy được vật phẩm có ID &c%item%&f trong shop &c%shop%&f.
   NOACCESSTOSHOP: Bạn không có quyền sử dụng shop &c%shop%&f.
   NODIRECTACCESSTOSHOP: Không thể sử dụng shop &c%shop%&f.
   MAINMENUDISABLED: Bạn không thể dụng lệnh này. Hãy thử cú pháp /shop <id>.
-  WORLDBLACKLISTED: You can't access %shop% in this world.
-  WORLDBANNED: Bạn không thể mở shop &c%shop%&f trong world này .
-  WORLDBANNEDTARGET: '%player% không thể mở shop đó trong wolrd này.'
-  GAMEMODEBANNED: Bạn không thể mở shop khi ở gamemode %gamemode%.
-  GAMEMODEBANNEDTARGET: '%player% ckhông thể mở shop khi ở gamemode %gamemode%.'
+  WORLDBLACKLISTED: Bạn không thể mở shop %shop% trong thế giới này.
+  WORLDBANNED: Bạn không thể mở shop &c%shop%&f trong thế giới này .
+  WORLDBANNEDTARGET: '%player% không thể mở shop đó trong thế giới này.'
+  GAMEMODEBANNED: Bạn không thể mở shop khi ở chế đội chơi %gamemode%.
+  GAMEMODEBANNEDTARGET: 'Người chơi %player% không thể mở shop khi ở chế độ chơi %gamemode%.'
   ITEM:
     FULLINVENTORY: Kho đồ đã đầy.
     CANNOTAFFORD: Bạn cần &c%price%$&f để mua &c%amount% x %item%&f.
@@ -90,34 +90,34 @@ MSG:
     SOLDFREE: Bạn đã bỏ đi &a%amount% x %item%&f.
     SOLDALL: Bạn đã bán hết %item%&f (&a%amount% x %item%&f) với giá &a%price%$&f.
     SOLDALLFREE: Bạn đã bỏ đi tất cả %item%&f (&a%amount% x %item%&f).
-    NOACCESS: Bạn không có quyền sử dụng item (vật phẩm) này.
+    NOACCESS: Bạn không có quyền sử dụng vật phẩm này.
   ENCHANT:
-    CANNOTAPPLY: Phù phép &c%enchantment%&f không thể áp dụng lên item (vật phẩm) bạn đang cầm.
-    ALREADYAPPLIED: Item (vật phẩm) này đã có phù phép &c%enchantment%&f rồi.
-    LEVELDIFF: Bạn cần có item (vật phẩm) ít nhật đã được phù phép &c%enchantment% %level%&f.
+    CANNOTAPPLY: Phù phép &c%enchantment%&f không thể áp dụng lên vật phẩm bạn đang cầm.
+    ALREADYAPPLIED: Vật phẩm này đã có phù phép &c%enchantment%&f rồi.
+    LEVELDIFF: Bạn cần có vật phẩm ít nhất đã được phù phép &c%enchantment% %level%&f.
     CANNOTAFFORD: Bạn cần &c%price%$&f để phù phép &c%enchantment%&f.
     MAX: Vật phẩm này đã đạt số lượng phù phép tối đa được cho phép. Nhiều nhất (%amount%) phù phép.
-    TOOMANY: Bạn không thể phù phép %amount% item (vật phẩm) cũng một lúc.
-    BOUGHT: Bạn đã phù phép &c%enchantment%&f thành công lên item (vật phẩm) với giá &c%price%$&f.
+    TOOMANY: Bạn không thể phù phép %amount% vật phẩm cũng một lúc.
+    BOUGHT: Bạn đã phù phép &c%enchantment%&f thành công lên vật phẩm với giá &c%price%$&f.
   PERMISSION:
-    PERMISSIONSDISABLED: Permissions (Quyền thực hiện lệnh) đã bị tắt. Hãy liên hệ với chủ server.
-    ALREADYHAVE: Bạn đã có Permission &c%permission%&f rồi.
+    PERMISSIONSDISABLED: Quyền thực hiện lệnh đã bị tắt. Hãy liên hệ với chủ server.
+    ALREADYHAVE: Bạn đã có quyền &c%permission%&f rồi.
     CANNOTAFFORD: Bạn cần &c%price%$&f để có được quyền: &c%permission%&f.
     BOUGHT: Bạn đã có được quyền: &c%permission%&f, với giá &c%price%$&f.
   COMMAND:
     BOUGHT: Bạn đã mua lệnh này với giá &c%price%$&f.
     CANNOTAFFORD: Bạn cần &c%price%$&f để có được lệnh này.
   SELLHAND:
-    NOITEM: Phải cầm item (vật phẩm) muốn bán ở trên tay mới có thể dùng lệnh này.
-    INVALIDQUANTITY: Độ bền item (vật phẩm) không hợp lệ. Phải từ 1 and %max%.
-    CANNOTSELL: Bạn không thể bán item (vật phẩm) này.
+    NOITEM: Phải cầm vật phẩm muốn bán ở trên tay mới có thể dùng lệnh này.
+    INVALIDQUANTITY: Độ bền vật phẩm không hợp lệ. Phải từ 1 and %max%.
+    CANNOTSELL: Bạn không thể bán vật phẩm này.
     MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
       are allowed for this item.
   SELLHANDALL:
     SOLD: Bạn đã bán %quantity% x %item% với tổng số tiền kiếm được là %price%$.
   SELLALL:
-    NOITEMS: Bạn không có item (vât phẩm) nào để bán cả.
-    SOLD: Bạn đã bán %quantity% item (vật phẩm) với tổng số tiền kiếm được là %price%$.
+    NOITEMS: Bạn không có vât phẩm nào để bán cả.
+    SOLD: Bạn đã bán %quantity% vật phẩm với tổng số tiền kiếm được là %price%$.
 DIALOG:
   AMOUNTSELECTION:
     BUY:
