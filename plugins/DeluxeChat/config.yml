@@ -100,19 +100,19 @@ formats:
     suffix: ' &7» '
     chat_color: '&f'
     channel_tooltip:
-    - '&7[%vault_rankprefix%&7] &d%player_name%'
+    - '&5Player: &d%player_name%'
     - '&5Level: &f%askyblock_level%'
     - '&5Balance: &f%vault_eco_balance_fixed%'
     prefix_tooltip:
-    - '&7[%vault_rankprefix%&7] &d%player_name%'
+    - '&5Player: &d%player_name%'
     - '&5Level: &f%askyblock_level%'
     - '&5Balance: &f%vault_eco_balance_fixed%'
     name_tooltip:
-    - '&7[%vault_rankprefix%&7] &d%player_name%'
+    - '&5Player: &d%player_name%'
     - '&5Level: &f%askyblock_level%'
     - '&5Balance: &f%vault_eco_balance_fixed%'
     suffix_tooltip:
-    - '&7[%vault_rankprefix%&7] &d%player_name%'
+    - '&5Player: &d%player_name%'
     - '&5Level: &f%askyblock_level%'
     - '&5Balance: &f%vault_eco_balance_fixed%'
     channel_click_command: '/msg %player_name% '
