@@ -174,7 +174,7 @@ MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname% đã đạt t
 #
 ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% thằng online | Có %totalplayers% thằng đã chơi xe vơ | Server đã online: %uptimemins% phút | Lần cuối cập nhật: %date%"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server offline cmnr | Có tổng cộng %totalplayers% thằng đã vòa server"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server offline cmnr | Có tổng cộng %totalplayers% thằng đã vào server"
 ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server offline cmnr | %serverversion%"
 
 # Discord command message
