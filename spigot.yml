@@ -39,7 +39,7 @@ commands:
   tab-complete: 0
   spam-exclusions:
   - /skill
-  silent-commandblock-console: true
+  silent-commandblock-console: false
   replace-commands:
   - setblock
   - summon
@@ -88,7 +88,7 @@ world-settings:
     ticks-per:
       hopper-transfer: 24
       hopper-check: 3
-    hopper-amount: 3
+      hopper-amount: 3
     random-light-updates: false
     save-structure-info: true
     dragon-death-sound-radius: 0
