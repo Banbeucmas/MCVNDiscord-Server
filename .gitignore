@@ -9,7 +9,7 @@
 /*.sh
 /*.jar
 /plugins/*.jar
-!/plugins/Mantle-1.0.0.jar
+!/plugins/Mantle*.jar
 /plugins/DiscordSRV/config.yml
 /plugins/MVdWPlaceholderAPI/placeholders
 /plugins/MVdWPlugin
