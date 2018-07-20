@@ -89,7 +89,7 @@ DiscordConsoleChannelFormat: "[%date% %level%] %line%"
 # %error%: the reason for the error
 #           example: no permission
 #
-DiscordChatChannelConsoleCommandNotifyErrorsFormat: "**%user%**, sai command rồi chú ơi, hoặc bạn thích hack đồ op. Không dễ đâu nhé bạn :))): %error%"
+DiscordChatChannelConsoleCommandNotifyErrorsFormat: "**%user%**, Đã xảy ra lỗi, bạn đã nhập sai lệnh hoặc thành phần của lệnh!: %error%"
 
 # Discord chat channel player list command
 # Messages used for when someone runs the playerlist command in a chat channel
@@ -105,8 +105,8 @@ DiscordChatChannelConsoleCommandNotifyErrorsFormat: "**%user%**, sai command r�
 #   %worldalias%:   alias of world player is in via Multiverse-Core
 # DiscordChatChannelListCommandAllPlayersSeparator: the separator used in between players
 #
-DiscordChatChannelListCommandFormatOnlinePlayers: "**Số thằng online (%playercount%):**"
-DiscordChatChannelListCommandFormatNoOnlinePlayers: "**Méo có thằng nào online. Dume**"
+DiscordChatChannelListCommandFormatOnlinePlayers: "**Số người chơi online (%playercount%):**"
+DiscordChatChannelListCommandFormatNoOnlinePlayers: "**Không có ai online**"
 DiscordChatChannelListCommandPlayerFormat: "%displayname%"
 DiscordChatChannelListCommandAllPlayersSeparator: ", "
 
@@ -121,7 +121,7 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 #
 MinecraftPlayerJoinMessageFormat: ":heavy_plus_sign: **%displayname% đã vào server**"
 MinecraftPlayerFirstJoinMessageFormat: ":tada: **%displayname% lần đầu vào server**"
-MinecraftPlayerLeaveMessageFormat: ":heavy_minus_sign: **%displayname% đã rời server cmnr**"
+MinecraftPlayerLeaveMessageFormat: ":heavy_minus_sign: **%displayname% đã rời server**"
 
 # Minecraft -> Discord player death messages
 #
@@ -145,7 +145,7 @@ MinecraftPlayerDeathMessageFormat: ":skull: **%deathmessage%**"
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname% đã đạt thành tựu bede gì đó: %achievement%!**"
+MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname% đã đạt được thành tựu %achievement%!**"
 
 # Channel topic updater messages
 # This is all the stuff related to automatically updating the chat or console channel's topics with server information
@@ -172,22 +172,22 @@ MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname% đã đạt t
 # %maxmemorygb%:   max memory of the JVM in GB
 # %tps%:           average TPS of the server
 #
-ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% thằng online | Có %totalplayers% thằng đã chơi xe vơ | Server đã online: %uptimemins% phút | Lần cuối cập nhật: %date%"
+ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% người chơi online | %totalplayers% người chơi đã vào server | Server đã online: %uptimemins% phút | Lần cuối cập nhật: %date%"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server offline cmnr | Có tổng cộng %totalplayers% thằng đã vào server"
-ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server offline cmnr | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server đã tắt | %totalplayers% người chơi đã vào server"
+ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server đã tắt | %serverversion%"
 
 # Discord command message
 # This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
 #
-DiscordCommandFormat: "&bDzô Discord nào các bạn: http://discord.gg/changethisinmessages.yml. Muốn help xài: \"/discord ?\" dume"
+DiscordCommandFormat: "&bVào Cộng Đồng Minecraft VN Discord nào các bạn: https://discord.gg/gMnJGey. Muốn được hỗ trợ xài: \"/discord ?\""
 
 # Server startup/shutdown messages
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 # DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
-DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server đã chạy :)))**"
-DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server đã dừng cmnr**"
+DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server đã mở**"
+DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server đã dừng**"
 
 # Server watchdog message
 #
@@ -200,7 +200,7 @@ DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server đã dừng 
 #                        you can @mention the owner of the server by using "%guildowner%"
 #                        you can put the date and time of the crash in the message by using %date%
 #
-ServerWatchdogMessage: "`%date%` %guildowner%, phòng server online kìa, vô đi dume :fire::bangbang:"
+ServerWatchdogMessage: "`%date%` %guildowner%, phòng chat server đã mở :fire::bangbang:"
 
 # Account link messages
 # These are messages used when accounts are linked
@@ -213,6 +213,6 @@ ServerWatchdogMessage: "`%date%` %guildowner%, phòng server online kìa, vô đ
 # MinecraftAccountLinked: %id%:       the discord id of the Discord user that the user's Minecraft account was linked to
 #                         %username%: the discord name of the Discord user that the user's Minecraft account was linked to
 #
-CodeGenerated: "Mã kết nối tài khoản vs Discord %code%. PM con bot bede đi (%botname%) bằng cái mã Server đã gửi, méo biết à dume."
-DiscordAccountLinked: "Tài khoản Discord gì đó đã được kết nối với %name% (%uuid%)"
-MinecraftAccountLinked: "&bTài khoản Mai cờ ráp đã được kết nối với Dizzcord: %username% (%id%)"
+CodeGenerated: "Mã kết nối tài khoản với Discord %code%. Bạn hãy PM bot trên Discord của Server (%botname%) với lời nhắn là mã của bạn!"
+DiscordAccountLinked: "Tài khoản Discord đã được kết nối với %name% (%uuid%)"
+MinecraftAccountLinked: "&bTài khoản Minecraft của bạn đã được kết nối với Discord của %username% (%id%)"
