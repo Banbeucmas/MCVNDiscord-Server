@@ -111,8 +111,7 @@ MSG:
     NOITEM: Phải cầm vật phẩm muốn bán ở trên tay mới có thể dùng lệnh này.
     INVALIDQUANTITY: Độ bền vật phẩm không hợp lệ. Phải từ 1 and %max%.
     CANNOTSELL: Bạn không thể bán vật phẩm này.
-    MULTIPLEQUANTITYONLY: You can't sell that quantity. Only multiples of %quantity%
-      are allowed for this item.
+    MULTIPLEQUANTITYONLY: Bạn không thể bán với số lượng đó. Chỉ được bán %quantity% vật phẩm như vậy
   SELLHANDALL:
     SOLD: Bạn đã bán %quantity% x %item% với tổng số tiền kiếm được là %price%$.
   SELLALL:
