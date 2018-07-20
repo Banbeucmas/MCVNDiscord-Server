@@ -1,1 +1,2 @@
-# MCVNDiscord-Server
+### MCVNDiscord-Server
+Only for MinecraftVN Discord users
