@@ -9,7 +9,7 @@
 /*.sh
 /*.jar
 /plugins/*.jar
-/plugins/DiscordSRV
+/plugins/DiscordSRV/config.yml
 /plugins/MVdWPlaceholderAPI/placeholders
 /plugins/MVdWPlugin
 /*.log
