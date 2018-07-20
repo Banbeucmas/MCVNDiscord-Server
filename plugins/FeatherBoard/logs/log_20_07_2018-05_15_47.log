@@ -1,0 +1,159 @@
+20/07/2018 05:15:48 [INFO] Loading messages ...
+20/07/2018 05:15:48 [INFO] Loading placeholders and event triggers ...
+20/07/2018 05:15:48 [INFO] Loading language file: lang_en
+20/07/2018 05:15:48 [DEBUG] Loaded placeholder: MySQL
+20/07/2018 05:15:48 [DEBUG] Loaded placeholder: CustomPlaceholders
+20/07/2018 05:15:48 [INFO] Loading internal placeholders ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Combat hook ...
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: vanillaevents
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: facebook
+20/07/2018 05:15:48 [INFO] Fetching available placeholders from server ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla player rejoin ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Block place hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Block break hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Combat hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla player first join ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Create portal hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Block place hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla player rejoin ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla player join ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Death hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Block break hook ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla player join ...
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Death hook ...
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: sound
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla player first join ...
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: economy
+20/07/2018 05:15:49 [INFO] Loading event hook: Vanilla Create portal hook ...
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: statistics
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: bungeecord
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: essentials
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: serverpinger
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: geographical
+20/07/2018 05:15:49 [DEBUG] Loaded placeholder: permissions
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: previousnames
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: compass
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: playereffects
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: world
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: bukkit
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: player
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: placeholderapi
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: color
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: java
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: memory
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: firework
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: entities
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: hotbar
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: command
+20/07/2018 05:15:51 [DEBUG] Loaded placeholder: twitter
+20/07/2018 05:15:51 [DEBUG] Loaded placeholder: tickspersecond
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: unicode
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: armor
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: redisbungee
+20/07/2018 05:15:50 [DEBUG] Loaded placeholder: askyblock
+20/07/2018 05:15:51 [DEBUG]  - Server supports Team color
+20/07/2018 05:15:51 [DEBUG]  - Server supports Objective entries
+20/07/2018 05:15:51 [DEBUG]  - Server supports Team entries
+20/07/2018 05:15:51 [DEBUG]  - Server supports Team prefix/suffix
+20/07/2018 05:15:51 [INFO] 	Arguments: 1
+20/07/2018 05:15:51 [INFO] 	Lines: 2
+20/07/2018 05:15:51 [INFO] Creating new custom effect: warning
+20/07/2018 05:15:51 [INFO] Loaded 2981 of the 2981 placholders
+20/07/2018 05:15:51 [DEBUG] 	Line: header Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: town-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: town-data Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: spacer1 Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: townboard-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: title Static: false
+20/07/2018 05:15:51 [INFO] Adding scoreboard group 'towny-town-example' ...
+20/07/2018 05:15:51 [INFO] Using OPTIMAL as the update strategy
+20/07/2018 05:15:51 [DEBUG] Using SCOREBOARD v7
+20/07/2018 05:15:51 [DEBUG] 	Line: footer Static: true
+20/07/2018 05:15:51 [INFO] Adding scoreboard group 'mcmmo-levelup' ...
+20/07/2018 05:15:51 [DEBUG] 	Line: title Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: header Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: info-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: spacer1 Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: poplulation-data Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: population-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: spacer2 Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: townboard Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: footer Static: true
+20/07/2018 05:15:51 [INFO] Adding scoreboard group 'combat-scoreboard-example' ...
+20/07/2018 05:15:51 [DEBUG] 	Line: title Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: header Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: combat-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: combat-data Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: skilllevel Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: skilllevel-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: spacer2 Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: skill Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: skill-label Static: true
+20/07/2018 05:15:51 [INFO] Adding scoreboard group 'benchmark' ...
+20/07/2018 05:15:51 [DEBUG] 	Line: title Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line1 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line2 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line3 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line4 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line5 Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: footer Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: health-data-2 Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: health-data-1 Static: false
+20/07/2018 05:15:51 [DEBUG] 	Line: health-label Static: true
+20/07/2018 05:15:51 [DEBUG] 	Line: spacer1 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line11 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line12 Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: line13 Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: line14 Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: line15 Static: false
+20/07/2018 05:15:53 [INFO] Adding scoreboard group 'default' ...
+20/07/2018 05:15:53 [DEBUG] 	Line: title Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: header Static: true
+20/07/2018 05:15:52 [DEBUG] 	Line: line10 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line9 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line8 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line7 Static: false
+20/07/2018 05:15:52 [DEBUG] 	Line: line6 Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: island_team_size Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: footer Static: true
+20/07/2018 05:15:53 [DEBUG] Scoreboards groups sorted by priority:
+20/07/2018 05:15:53 [DEBUG] 	default - 10
+20/07/2018 05:15:53 [DEBUG] 	towny-town-example - 0
+20/07/2018 05:15:53 [DEBUG] 	mcmmo-levelup - 0
+20/07/2018 05:15:53 [DEBUG] 	combat-scoreboard-example - 0
+20/07/2018 05:15:53 [DEBUG] 	benchmark - 0
+20/07/2018 05:15:53 [INFO] Added 'PERMISSION' as the default scoreboard assign method
+20/07/2018 05:15:53 [DEBUG] 	Line: island_Level Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: island_Leader Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: crossline1 Static: true
+20/07/2018 05:15:53 [DEBUG] 	Line: player_balance Static: false
+20/07/2018 05:15:53 [DEBUG] 	Line: player Static: false
+20/07/2018 05:15:53 [MESSAGE] &5[&9FeatherBoard&5] &aYour version is up to date!
+20/07/2018 05:15:53 [INFO] Toggle persistence is disabled!
+20/07/2018 05:15:53 [INFO] Adding command 'featherboard'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'toggle'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'on'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'gui'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'off'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'placeholders'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'debug'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'reload'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'permissions'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'about'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'help'
+20/07/2018 05:15:53 [INFO] Generating metrics information ...
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'editsetting'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'removescoreboard'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'createscoreboard'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'modules'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'info'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'add'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'remove'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'module'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'hide'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'show'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'parse'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'generatebbcode'
+20/07/2018 05:15:53 [DEBUG] 	Adding sub command 'reload'
+20/07/2018 05:16:05 [INFO] Checking for module updates ...
+20/07/2018 05:16:05 [WARNING] Unable to check for module updates!

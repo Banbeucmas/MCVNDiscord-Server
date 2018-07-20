@@ -5,7 +5,8 @@ no_permission: '&cBạn không có quyền (permission) để thực hiện câu
 msg_incorrect_usage: '&cSai cú pháp! &7/msg <tên người chơi> <tin nhắn>'
 msg_recipient_not_online: '&c{0} &c hiện đang offline!'
 msg_recipient_ignoring_sender: '&c{0} &ckhông muốn nói chuyện với bạn!'
-msg_recipient_is_sender: '&cBạn không thể tự nói chuyện với bản thân (đừng tự kỉ vậy chứ :p)!'
+msg_recipient_is_sender: '&cBạn không thể tự nói chuyện với bản thân (đừng tự kỉ vậy
+  chứ :p)!'
 reply_incorrect_usage: '&cSai cú pháp! &7/r <tin nhắn>'
 reply_no_recipient: '&cKhông xác định được người nhắn tin cùng bạn!'
 socialspy_toggle_on: '&aĐã bật Socialspy!'
