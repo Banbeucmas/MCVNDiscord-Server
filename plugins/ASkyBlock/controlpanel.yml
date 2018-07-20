@@ -9,7 +9,7 @@ default:
   buttons:
     0:
       material: GRASS
-      description: 'Về đảo của bạn'
+      description: 'Di chuyển về đảo của bạn'
       command: '[island] go'
       nextsection: ''
     1:
