@@ -10,7 +10,7 @@
 /*.jar
 /plugins/*.jar
 !/plugins/Mantle-1.0.0.jar
-/plugins/DiscordSRV
+/plugins/DiscordSRV/config.yml
 /plugins/MVdWPlaceholderAPI/placeholders
 /plugins/MVdWPlugin
 /*.log
