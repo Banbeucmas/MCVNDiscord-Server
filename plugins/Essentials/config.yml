@@ -411,11 +411,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "none"
+custom-join-message: "&e{PLAYER} đã vào server"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "none"
+custom-quit-message: "&e{PLAYER} đã rời server"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
@@ -842,7 +842,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&dXin chào {DISPLAYNAME}&d lần đầu vào server!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
