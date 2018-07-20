@@ -215,4 +215,4 @@ ServerWatchdogMessage: "`%date%` %guildowner%, phòng server online kìa, vô đ
 #
 CodeGenerated: "Mã kết nối tài khoản vs Discord %code%. PM con bot bede đi (%botname%) bằng cái mã Server đã gửi, méo biết à dume."
 DiscordAccountLinked: "Tài khoản Discord gì đó đã được kết nối với %name% (%uuid%)"
-MinecraftAccountLinked: "&bTài khoảng Mai cờ ráp đã được kết nối với Dizzcord: %username% (%id%)"
+MinecraftAccountLinked: "&bTài khoản Mai cờ ráp đã được kết nối với Dizzcord: %username% (%id%)"
