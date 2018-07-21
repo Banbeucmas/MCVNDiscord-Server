@@ -15,7 +15,7 @@ database:
   tableNames:
     players: "players"
 
-#  Type of the economy which will handle all transactions. 
+#  Type of the economy which will handle all transactions.
 #  Supported economies:
 #  - EXP (default Minecraft experience points)
 #  - VAULT (requires http://dev.bukkit.org/bukkit-plugins/vault/)
@@ -31,7 +31,7 @@ shopMenuSize: 9
 shopMenuFillItem:
   material: STAINED_GLASS_PANE
   damage: 15
-  name: " "
+  name: "Không tên"
 # Define whether selling all with middle mouse button is enabled
 enableSellAll: true
 # Define whether the buy GUI with option to select quantity is enabled
@@ -97,7 +97,7 @@ disableShopsInGamemodes:
   - SPECTATOR
 # Choose in which worlds players won't be able to access the shop. Same list format as disableShopsInGamemodes
 disableShopsInWorlds: []
-  
+
 # Choose whether price modifiers should be displayed in percents instead of decimals (eg. 10% instead of 0.10), remember you will still have to use the decimal way in commands
 displayPriceModifiersInPercents: true
 
@@ -121,18 +121,18 @@ defaultItemSettings:
 shopItemLoreFormat:
   # This lore will be applied to items
   item:
-    - "&7Buy price: &c%buy%$"
-    - "&7Sell price: &a%sell%$"
-    - "&9Click with MMB to sell all"
+    - "&7Giá mua: &c%buy%$"
+    - "&7Giá bán: &a%sell%$"
+    - "&9Bấm chuột giữa để bán tất"
   # This lore will be applied to items in the buy GUI (when enableBuyGUI is set to true)
   itemBuyGUI:
-    - "&7Buy price: &c%buy%$"  
+    - "&7Giá mua: &c%buy%$"
   # This lore will be applied to items in the sell GUI (when enableSellGUI is set to true)
   itemSellGUI:
-    - "&7Sell price: &a%sell%$"
+    - "&7Giá bán: &a%sell%$"
   # This lore will be applied to the sell all button in the sell GUI (when enableSellGUI and enableSellGUISellAll are set to true)
   itemSellGUISellAll:
-    - "&7Sell all for: &a%sell%$"
+    - "&7Bán toàn bộ với gía: &a%sell%$"
   # This one to permissions
   permission:
     - "&7Buy price: &c%buy%$"
@@ -157,7 +157,7 @@ log:
   formatSell: "%player% sold %amount% x %item% for %price%$ to %shop% shop"
   # Log message for sold all items
   formatSellAll: "%player% sold all %amount% x %item% for %price%$ to %shop% shop"
-  
+
 # Sell hand command settings
 sellHand:
   # When set to true, players will be able to sell any quantity of the item (the price will be calculated from the base price)
@@ -177,30 +177,29 @@ buttons:
       # Material name, full list can be found here: http://wiki.brcdev.net/Materials
       material: BARRIER
       # Amount of the item
-      amount: 1 
+      amount: 1
       # (optional) Data value, for example 1 for WOOD:1 means spruce wood planks
-      damage: 0 
+      damage: 0
       # (optional) Custom name
       name: "&c&lGo back to categories"
       # (optional) Lore, can contain multiple lines
-      lore: 
-        - "&7Click here to return"
-        - "&7to the main menu"
-    # Slot in each shop's GUI
-    slot: 49 
+      lore:
+        - "&7Bấm để trở lại menu chính"
+      # Slot in each shop's GUI
+    slot: 49
   # "Previous page" button
   previousPage:
     item:
       material: PAPER
       quantity: 1
-      name: "&e&lPrevious page"
+      name: "&e&lTrang trước"
     slot: 48
   # "Next page" button
   nextPage:
     item:
       material: PAPER
       quantity: 1
-      name: "&e&lNext page"
+      name: "&e&lTrang sau"
     slot: 50
 
 # Elements of the bulk buy GUI
@@ -302,7 +301,7 @@ amountSelectionGUIBulkBuy:
         damage: 14
         name: "&c&lCancel"
       slot: 13
-      
+
 # Elements of the bulk buy GUI
 amountSelectionGUIBulkSell:
   # Size of the GUI, valid values are 9, 18, 27, 36, 45 and 54
@@ -473,7 +472,7 @@ amountSelectionGUI:
         material: STAINED_GLASS
         quantity: 1
         damage: 5
-        name: "&a&lConfirm"   
+        name: "&a&lConfirm"
       slot: 39
     # "Sell all" button
     sellAll:
@@ -481,7 +480,7 @@ amountSelectionGUI:
         material: STAINED_GLASS
         quantity: 1
         damage: 5
-        name: "&a&lSell all"      
+        name: "&a&lSell all"
       slot: 40
     # "Buy more" button
     buyMore:
@@ -489,7 +488,7 @@ amountSelectionGUI:
         material: STAINED_GLASS
         quantity: 64
         damage: 5
-        name: "&a&lBuy more"      
+        name: "&a&lBuy more"
       slot: 49
     # "Sell more" button
     sellMore:
@@ -497,7 +496,7 @@ amountSelectionGUI:
         material: STAINED_GLASS
         quantity: 64
         damage: 5
-        name: "&a&lSell more"      
+        name: "&a&lSell more"
       slot: 49
     # "Cancel" button
     cancel:
@@ -507,7 +506,7 @@ amountSelectionGUI:
         damage: 14
         name: "&c&lCancel"
       slot: 41
-      
+
 shopMenuItems:
   # Has to be unique, value doesn't matter
   1:
@@ -522,25 +521,25 @@ shopMenuItems:
     shop: "blocks"
     # Slot in shops menu, counting from 0 to 53
     slot: 0
-  2: 
+  2:
     item:
-      material: COOKED_CHICKEN 
-      quantity: 1 
+      material: COOKED_CHICKEN
+      quantity: 1
       damage: 0
       name: "&5Thức ăn"
       lore:
         - "&7Mua thức ăn chống đói"
-    shop: "food" 
+    shop: "food"
     slot: 1
-  3: 
+  3:
     item:
-      material: SUGAR_CANE 
-      quantity: 1 
+      material: SUGAR_CANE
+      quantity: 1
       damage: 0
-      name: "&5Farming"
+      name: "&5Nông trang"
       lore:
-        - "&7Farming Items"
-    shop: "farm" 
+        - "&7Làm vườn :)"
+    shop: "farm"
     slot: 2
 
 specialElements:

@@ -17,12 +17,64 @@ shops:
       1:
         type: item
         item:
+          material: STONE
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 2.5
+        slot: 1
+      2:
+        type: item
+        item:
           material: LOG
           quantity: 1
         buyPrice: -1
         sellPrice: 0.65
-        slot: 1
-      2:
+        slot: 9
+      3:
+        type: item
+        item:
+          material: LOG
+          quantity: 1
+          damage: 1
+        buyPrice: -1
+        sellPrice: 0.75
+        slot: 10
+      4:
+        type: item
+        item:
+          material: LOG
+          quantity: 1
+          damage: 2
+        buyPrice: -1
+        sellPrice: 0.85
+        slot: 11
+      5:
+        type: item
+        item:
+          material: LOG
+          quantity: 1
+          damage: 3
+        buyPrice: -1
+        sellPrice: 0.85
+        slot: 12
+      6:
+        type: item
+        item:
+          material: LOG_2
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 0.85
+        slot: 13
+      7:
+        type: item
+        item:
+          material: LOG_2
+          quantity: 1
+          damage: 1
+        buyPrice: -1
+        sellPrice: 0.85
+        slot: 14
+      8:
         type: item
         item:
           material: GRASS
@@ -30,22 +82,47 @@ shops:
         buyPrice: 12.5
         sellPrice: -1
         slot: 18
-      3:
+      9:
+        type: item
+        item:
+          material: DIRT
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 19
+      10:
         type: item
         item:
           material: SAND
           quantity: 1
         buyPrice: 12.5
         sellPrice: -1
-        slot: 19
-      4:
+        slot: 20
+      11:
+        type: item
+        item:
+          material: SAND
+          quantity: 1
+          damage: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 21
+      12:
         type: item
         item:
           material: OBSIDIAN
           quantity: 1
         buyPrice: 300
         sellPrice: -1
-        slot: 20
+        slot: 27
+      13:
+        type: item
+        item:
+          material: SOUL_SAND
+          quantity: 1
+        buyPrice: 75
+        sellPrice: -1
+        slot: 28
   food:
     name: "&2&lThức ăn (trang %page%)"
     fillItem:
@@ -108,6 +185,115 @@ shops:
         buyPrice: 1
         sellPrice: 0.5
         slot: 1
+      3:
+        type: item
+        item:
+          material: NETHER_STALK
+          quantity: 1
+        buyPrice: 7
+        sellPrice: 5
+        slot: 2
+      4:
+        type: item
+        item:
+          material: PUMPKIN
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 1.5
+        slot: 3      
+      5:
+        type: item
+        item:
+          material: MELON
+          quantity: 1
+        buyPrice: -1
+        sellPrice: 0.4
+        slot: 4
+      6:
+        type: item 
+        item: 
+          material: CARROT
+          quantity: 1
+        buyPrice: 7
+        sellPrice: 0.6
+        slot: 5
+      7:
+        type: item 
+        item: 
+          material: POTATO
+          quantity: 1
+        buyPrice: 7
+        sellPrice: 0.6
+        slot: 6
+      8:
+        type: item 
+        item: 
+          material: MELON_SEEDS
+          quantity: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 9
+      9:
+        type: item 
+        item: 
+          material: PUMPKIN_SEEDS
+          quantity: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 10
+      10:
+        type: item 
+        item: 
+          material: SAPLING
+          quantity: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 11
+      11:
+        type: item 
+        item: 
+          material: SAPLING
+          quantity: 1
+          damage: 1
+        buyPrice: 5
+        sellPrice: -1
+        slot: 12
+      12:
+        type: item 
+        item: 
+          material: SAPLING
+          quantity: 1
+          damage: 2  
+        buyPrice: 5
+        sellPrice: -1
+        slot: 13
+      13:
+        type: item 
+        item: 
+          material: SAPLING
+          quantity: 1
+          damage: 3
+        buyPrice: 5
+        sellPrice: -1
+        slot: 14
+      14:
+        type: item 
+        item: 
+          material: SAPLING
+          quantity: 1
+          damage: 4
+        buyPrice: 5
+        sellPrice: -1
+        slot: 15
+      15:
+        type: item 
+        item: 
+          material: SAPLING
+          quantity: 1
+          damage: 5
+        buyPrice: 5
+        sellPrice: -1
+        slot: 16
   mobs:
     name: "&2&lLồng và Quái (trang %page%)"
     fillItem:

@@ -15,24 +15,24 @@ MSG:
       ADDMODIFIER:
         ITEM:
           USAGE: /shop addmodifier item <player> <shop> <item> <value> [buy|sell]
-          ADDED: You set &c%player%&f's %type% price modifier for the %item% item
-            in %shop% shop to &c%modifier%&f.
+          ADDED: You set &c%player%&f %type% price modifier for the %item% item in
+            %shop% shop to &c%modifier%&f.
           ADDEDBY: Your %type% price modifier for the %item% item in %shop% shop was
             set to &c%modifier%&f by &c%player%&f.
         SHOP:
           USAGE: /shop addmodifier shop <player> <shop> <value> [buy|sell]
-          ADDED: You set &c%player%&f's %type% price modifier for all items in %shop%
+          ADDED: You set &c%player%&f %type% price modifier for all items in %shop%
             shop to &c%modifier%&f.
           ADDEDBY: Your %type% price modifier for all items in %shop% shop was set
             to &c%modifier%&f by &c%player%&f.
         GLOBAL:
           USAGE: /shop addmodifier global <player> <value> [buy|sell]
-          ADDED: You set &c%player%&f's %type% price modifier to &c%modifier%&f.
+          ADDED: You set &c%player%&f %type% price modifier to &c%modifier%&f.
           ADDEDBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
       CHECKMODIFIERS:
         VIEW:
           VIEW: |-
-            &c%player%&f's modifiers:
+            &c%player%&f modifiers:
             Global modifiers:
             %global%
             Shop modifiers:
@@ -46,19 +46,19 @@ MSG:
       RESETMODIFIER:
         ITEM:
           USAGE: /shop resetmodifier item <player> <shop> <item> [buy|sell]
-          RESET: You reset &c%player%&f's %type% price modifier for the %item% item
+          RESET: You reset &c%player%&f %type% price modifier for the %item% item
             in %shop% shop.
           RESETBY: Your %type% price modifier for the %item% item in %shop% shop was
             reset by &c%player%&f.
         SHOP:
           USAGE: /shop resetmodifier shop <player> <shop> [buy|sell]
-          RESET: You reset &c%player%&f's %type% price modifier for all items in %shop%
+          RESET: You reset &c%player%&f %type% price modifier for all items in %shop%
             shop.
           RESETBY: Your %type% price modifier for all items in %shop% shop was set
             to by &c%player%&f.
         GLOBAL:
           USAGE: /shop resetmodifier global <player> [buy|sell]
-          RESET: You reset &c%player%&f's %type% price modifier.
+          RESET: You reset &c%player%&f %type% price modifier.
           RESETBY: Your %type% price modifier was set to &c%modifier%&f by &c%player%&f.
   MODIFIER:
     INVALIDAMOUNT: Invalid modifier value specified. Valid values are for instance
@@ -77,7 +77,7 @@ MSG:
   WORLDBANNED: Bạn không thể mở shop &c%shop%&f trong thế giới này .
   WORLDBANNEDTARGET: '%player% không thể mở shop đó trong thế giới này.'
   GAMEMODEBANNED: Bạn không thể mở shop khi ở chế đội chơi %gamemode%.
-  GAMEMODEBANNEDTARGET: 'Người chơi %player% không thể mở shop khi ở chế độ chơi %gamemode%.'
+  GAMEMODEBANNEDTARGET: Người chơi %player% không thể mở shop khi ở chế độ chơi %gamemode%.
   ITEM:
     FULLINVENTORY: Kho đồ đã đầy.
     CANNOTAFFORD: Bạn cần &c%price%$&f để mua &c%amount% x %item%&f.
@@ -92,18 +92,20 @@ MSG:
     SOLDALLFREE: Bạn đã bỏ đi tất cả %item%&f (&a%amount% x %item%&f).
     NOACCESS: Bạn không có quyền sử dụng vật phẩm này.
   ENCHANT:
-    CANNOTAPPLY: Phù phép &c%enchantment%&f không thể áp dụng lên vật phẩm bạn đang cầm.
+    CANNOTAPPLY: Phù phép &c%enchantment%&f không thể áp dụng lên vật phẩm bạn đang
+      cầm.
     ALREADYAPPLIED: Vật phẩm này đã có phù phép &c%enchantment%&f rồi.
     LEVELDIFF: Bạn cần có vật phẩm ít nhất đã được phù phép &c%enchantment% %level%&f.
     CANNOTAFFORD: Bạn cần &c%price%$&f để phù phép &c%enchantment%&f.
-    MAX: Vật phẩm này đã đạt số lượng phù phép tối đa được cho phép. Nhiều nhất (%amount%) phù phép.
+    MAX: Vật phẩm này đã đạt số lượng phù phép tối đa được cho phép. Nhiều nhất (%amount%)
+      phù phép.
     TOOMANY: Bạn không thể phù phép %amount% vật phẩm cũng một lúc.
     BOUGHT: Bạn đã phù phép &c%enchantment%&f thành công lên vật phẩm với giá &c%price%$&f.
   PERMISSION:
     PERMISSIONSDISABLED: Quyền thực hiện lệnh đã bị tắt. Hãy liên hệ với chủ server.
     ALREADYHAVE: Bạn đã có quyền &c%permission%&f rồi.
-    CANNOTAFFORD: Bạn cần &c%price%$&f để có được quyền: &c%permission%&f.
-    BOUGHT: Bạn đã có được quyền: &c%permission%&f, với giá &c%price%$&f.
+    CANNOTAFFORD: 'Bạn cần &c%price%$&f để có được quyền: &c%permission%&f.'
+    BOUGHT: 'Bạn đã có được quyền: &c%permission%&f, với giá &c%price%$&f.'
   COMMAND:
     BOUGHT: Bạn đã mua lệnh này với giá &c%price%$&f.
     CANNOTAFFORD: Bạn cần &c%price%$&f để có được lệnh này.
@@ -111,7 +113,8 @@ MSG:
     NOITEM: Phải cầm vật phẩm muốn bán ở trên tay mới có thể dùng lệnh này.
     INVALIDQUANTITY: Độ bền vật phẩm không hợp lệ. Phải từ 1 and %max%.
     CANNOTSELL: Bạn không thể bán vật phẩm này.
-    MULTIPLEQUANTITYONLY: Bạn không thể bán với số lượng đó. Chỉ được bán %quantity% vật phẩm như vậy
+    MULTIPLEQUANTITYONLY: Bạn không thể bán với số lượng đó. Chỉ được bán %quantity%
+      vật phẩm như vậy
   SELLHANDALL:
     SOLD: Bạn đã bán %quantity% x %item% với tổng số tiền kiếm được là %price%$.
   SELLALL:
