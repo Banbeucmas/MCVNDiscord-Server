@@ -25,4 +25,5 @@
 /plugins/PlaceholderAPI/expansions
 /plugins/FeatherBoard/logs
 /plugins/NoCheatPlus/*.log
+/plugins/NoCheatPlus/*.log.lck
 /*.log
