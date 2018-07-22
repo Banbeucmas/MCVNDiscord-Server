@@ -26,4 +26,6 @@
 /plugins/FeatherBoard/logs
 /plugins/NoCheatPlus/*.log
 /plugins/NoCheatPlus/*.log.lck
+/plugins/SkinsRestorer/Skins
+/plugins/SkinsRestorer/Players
 /*.log
