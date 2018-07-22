@@ -4,9 +4,9 @@ shops:
     fillItem:
         material: STAINED_GLASS_PANE
         damage: 15
-        name: " "
+        name: "Make Color"
     items:
-      0:
+      1-1:
         type: item
         item:
           material: COBBLESTONE
@@ -14,7 +14,7 @@ shops:
         buyPrice: -1
         sellPrice: 1
         slot: 0
-      1:
+      1-2:
         type: item
         item:
           material: STONE
@@ -22,7 +22,7 @@ shops:
         buyPrice: -1
         sellPrice: 2.5
         slot: 1
-      2:
+      2-1:
         type: item
         item:
           material: LOG
@@ -30,7 +30,7 @@ shops:
         buyPrice: -1
         sellPrice: 0.65
         slot: 9
-      3:
+      2-2:
         type: item
         item:
           material: LOG
@@ -39,7 +39,7 @@ shops:
         buyPrice: -1
         sellPrice: 0.75
         slot: 10
-      4:
+      2-3:
         type: item
         item:
           material: LOG
@@ -48,7 +48,7 @@ shops:
         buyPrice: -1
         sellPrice: 0.85
         slot: 11
-      5:
+      2-4:
         type: item
         item:
           material: LOG
@@ -57,7 +57,7 @@ shops:
         buyPrice: -1
         sellPrice: 0.85
         slot: 12
-      6:
+      2-5:
         type: item
         item:
           material: LOG_2
@@ -65,7 +65,7 @@ shops:
         buyPrice: -1
         sellPrice: 0.85
         slot: 13
-      7:
+      2-6:
         type: item
         item:
           material: LOG_2
@@ -74,7 +74,7 @@ shops:
         buyPrice: -1
         sellPrice: 0.85
         slot: 14
-      8:
+      3-1:
         type: item
         item:
           material: GRASS
@@ -82,7 +82,7 @@ shops:
         buyPrice: 12.5
         sellPrice: -1
         slot: 18
-      9:
+      3-2:
         type: item
         item:
           material: DIRT
@@ -90,7 +90,7 @@ shops:
         buyPrice: 12.5
         sellPrice: -1
         slot: 19
-      10:
+      3-3:
         type: item
         item:
           material: SAND
@@ -98,7 +98,7 @@ shops:
         buyPrice: 12.5
         sellPrice: -1
         slot: 20
-      11:
+      3-4:
         type: item
         item:
           material: SAND
@@ -107,7 +107,15 @@ shops:
         buyPrice: 12.5
         sellPrice: -1
         slot: 21
-      12:
+      3-5:
+        type: item
+        item:
+          material: GRAVEL
+          quantity: 1
+        buyPrice: 12.5
+        sellPrice: -1
+        slot: 22
+      4-1:
         type: item
         item:
           material: OBSIDIAN
@@ -115,7 +123,7 @@ shops:
         buyPrice: 300
         sellPrice: -1
         slot: 27
-      13:
+      4-2:
         type: item
         item:
           material: SOUL_SAND
@@ -130,7 +138,7 @@ shops:
         damage: 15
         name: " "
     items:
-      1:
+      1-1:
         type: item
         item:
           material: BREAD
@@ -138,30 +146,38 @@ shops:
         buyPrice: 1
         sellPrice: -1
         slot: 0
-      2:
+      1-2:
+        type: item
+        item:
+          material: CAKE
+          quantity: 1
+        buyPrice: 2
+        sellPrice: -1
+        slot: 1
+      2-1:
         type: item
         item:
           material: COOKED_BEEF
           quantity: 1
         buyPrice: 5
         sellPrice: -1
-        slot: 1
-      3:
+        slot: 9
+      2-2:
         type: item
         item:
           material: COOKED_CHICKEN
           quantity: 1
         buyPrice: 5
         sellPrice: -1
-        slot: 2
-      4:
+        slot: 10
+      2-3:
         type: item
         item:
           material: GRILLED_PORK
           quantity: 1
         buyPrice: 5
         sellPrice: -1
-        slot: 3
+        slot: 11        
   farm:
     name: "&2&lFarm (trang %page%)"
     fillItem:
@@ -169,7 +185,7 @@ shops:
         damage: 15
         name: " "
     items:
-      1:
+      1-1:
         type: item
         item:
           material: SUGAR_CANE
@@ -177,7 +193,7 @@ shops:
         buyPrice: 1
         sellPrice: 0.5
         slot: 0
-      2:
+      1-2:
         type: item
         item:
           material: CACTUS
@@ -185,7 +201,7 @@ shops:
         buyPrice: 1
         sellPrice: 0.5
         slot: 1
-      3:
+      1-3:
         type: item
         item:
           material: NETHER_STALK
@@ -193,7 +209,7 @@ shops:
         buyPrice: 7
         sellPrice: 5
         slot: 2
-      4:
+      1-4:
         type: item
         item:
           material: PUMPKIN
@@ -201,7 +217,7 @@ shops:
         buyPrice: -1
         sellPrice: 1.5
         slot: 3      
-      5:
+      1-5:
         type: item
         item:
           material: MELON
@@ -209,23 +225,34 @@ shops:
         buyPrice: -1
         sellPrice: 0.4
         slot: 4
-      6:
+      1-6:
         type: item 
         item: 
-          material: CARROT
+          material: INK_SACK
           quantity: 1
-        buyPrice: 7
-        sellPrice: 0.6
+          damage: 3
+          buyPrice: 7
+        sellPrice: 1.5
         slot: 5
-      7:
+      1-7:
         type: item 
         item: 
-          material: POTATO
+          material: CARROT_ITEM
           quantity: 1
-        buyPrice: 7
+          damage: 0
+        buyPrice: 3
         sellPrice: 0.6
         slot: 6
-      8:
+      1-8:
+        type: item 
+        item: 
+          material: POTATO_ITEM
+          quantity: 1
+          damage: 0
+        buyPrice: 3
+        sellPrice: 0.6
+        slot: 7
+      2-1:
         type: item 
         item: 
           material: MELON_SEEDS
@@ -233,7 +260,7 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 9
-      9:
+      2-2:
         type: item 
         item: 
           material: PUMPKIN_SEEDS
@@ -241,7 +268,7 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 10
-      10:
+      2-3:
         type: item 
         item: 
           material: SAPLING
@@ -249,7 +276,7 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 11
-      11:
+      2-4:
         type: item 
         item: 
           material: SAPLING
@@ -258,7 +285,7 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 12
-      12:
+      2-5:
         type: item 
         item: 
           material: SAPLING
@@ -267,7 +294,7 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 13
-      13:
+      2-6:
         type: item 
         item: 
           material: SAPLING
@@ -276,7 +303,7 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 14
-      14:
+      2-7:
         type: item 
         item: 
           material: SAPLING
@@ -285,28 +312,53 @@ shops:
         buyPrice: 5
         sellPrice: -1
         slot: 15
-      15:
+      2-8:
         type: item 
         item: 
           material: SAPLING
           quantity: 1
           damage: 5
-        buyPrice: 5
+        buyPrice: 5 
         sellPrice: -1
         slot: 16
+  
   mobs:
-    name: "&2&lLồng và Quái (trang %page%)"
+    name: "&2Lồng và Quái (trang %page%)"
     fillItem:
         material: STAINED_GLASS_PANE
         damage: 15
         name: " "
     items:
-      1:
-        type: item
-        item:
+      1-1:
+        type: command
+        item: 
           material: MOB_SPAWNER
           quantity: 1
-        buyPrice: 1
+          name: "&bPig Spawner"
+        commands:
+        - "ss give %PLAYER% pig 1"
+        buyPrice: 4500
         sellPrice: -1
         slot: 0
-                
+     1-2:
+        type: command
+        item: 
+          material: MOB_SPAWNER
+          quantity: 1
+          name: "&bSheep Spawner"
+        commands:
+        - "ss give %PLAYER% sheep 1"
+        buyPrice: 4500
+        sellPrice: -1
+        slot: 0
+     1-3:
+        type: command
+        item: 
+          material: MOB_SPAWNER
+          quantity: 1
+          name: "&bCow Spawner"
+        commands:
+        - "ss give %PLAYER% Cow 1"
+        buyPrice: 4500
+        sellPrice: -1
+        slot: 0           

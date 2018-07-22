@@ -30,6 +30,9 @@ permissions:
 - essentials.balancetop:
     value: true
     server: skyblock
+- essentials.list:
+    value: true
+    server: skyblock
 - essentials.pay:
     value: true
     server: skyblock

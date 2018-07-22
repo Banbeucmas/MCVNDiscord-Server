@@ -270,5 +270,13 @@
     "type": "G",
     "actedName": "default",
     "action": "webeditor add askyblock.coop true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532238443,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add essentials.list true server\u003dskyblock"
   }
 ]

@@ -641,21 +641,21 @@ general:
        COAL_ORE: 13.5
        IRON_ORE: 4.5
        REDSTONE_ORE: 7.5
-     30:
+     50:
        COBBLESTONE: 71.5
        COAL_ORE: 13.5
        IRON_ORE: 4.5
        GOLD_ORE: 2.5
        REDSTONE_ORE: 7.5
        DIAMOND_ORE: 0.5
-     50:
+     100:
        COBBLESTONE: 60.5
        COAL_ORE: 13.5
        IRON_ORE: 4.5
        GOLD_ORE: 2.5
        REDSTONE_ORE: 7.5
        DIAMOND_ORE: 1.5
-     100:
+     250:
        COBBLESTONE: 55
        COAL_ORE: 17.5
        IRON_ORE: 7.5
@@ -668,8 +668,10 @@ general:
        STONE: 20.0
        COAL_ORE: 10.0
        IRON_ORE: 10.0
-       REDSTONE_ORE: 5.0
+       GOLD_ORE: 8.5
+       REDSTONE_ORE: 12.5
        DIAMOND_ORE: 4.0
+       LAPIS_ORE: 2.5
        EMERALD_ORE: 1.0
    
    # Disable redstone operation on islands unless a team member is online.

@@ -27,7 +27,7 @@ economyType: VAULT
 shopMenuName: "&3&lShop menu"
 # Size of the main GUI, valid values are 9, 18, 27, 36, 45 and 54
 shopMenuSize: 9
-# Choose an item to fill the empty slots of menu with
+# Choose an item to fillthe empty slots of menu with
 shopMenuFillItem:
   material: STAINED_GLASS_PANE
   damage: 15
@@ -541,6 +541,15 @@ shopMenuItems:
         - "&7Làm vườn :)"
     shop: "farm"
     slot: 2
+  4:
+    item:
+      material: MOB_SPAWNER
+      quantity: 1
+      name: "&5Lồng và Quái"
+      lore:
+        - "&7Mob Farm"
+    shop: "mobs"
+    slot: 3
 
 specialElements:
   balance:
