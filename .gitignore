@@ -22,4 +22,7 @@
 /plugins/LuckPerms/yaml-storage/users
 /plugins/LuckPerms/*.db
 /plugins/LuckPerms/*.json
+/plugins/PlaceholderAPI/expansions
+/plugins/FeatherBoard/logs
+/plugins/NoCheatPlus/*.log
 /*.log
