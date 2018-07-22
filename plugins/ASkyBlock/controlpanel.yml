@@ -5,11 +5,11 @@
 # description can include color codes using & and new lines using |
 
 default:
-  panelname: '&Lệnh'
+  panelname: '&eLệnh'
   buttons:
     0:
       material: GRASS
-      description: 'Go to your island'
+      description: 'Di chuyển về đảo của bạn'
       command: '[island] go'
       nextsection: ''
     1:
