@@ -321,13 +321,12 @@ shops:
         buyPrice: 5 
         sellPrice: -1
         slot: 16
-  
   mobs:
     name: "&2Lồng và Quái (trang %page%)"
     fillItem:
-        material: STAINED_GLASS_PANE
-        damage: 15
-        name: " "
+      material: STAINED_GLASS_PANE
+      damage: 15
+      name: " "
     items:
       1-1:
         type: command
@@ -340,7 +339,7 @@ shops:
         buyPrice: 4500
         sellPrice: -1
         slot: 0
-     1-2:
+      1-2:
         type: command
         item: 
           material: MOB_SPAWNER
@@ -350,8 +349,8 @@ shops:
         - "ss give %PLAYER% sheep 1"
         buyPrice: 4500
         sellPrice: -1
-        slot: 0
-     1-3:
+        slot: 1
+      1-3:
         type: command
         item: 
           material: MOB_SPAWNER
@@ -361,4 +360,4 @@ shops:
         - "ss give %PLAYER% Cow 1"
         buyPrice: 4500
         sellPrice: -1
-        slot: 0           
+        slot: 2           
