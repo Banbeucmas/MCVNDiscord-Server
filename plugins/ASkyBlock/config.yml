@@ -431,7 +431,7 @@ general:
      #BEACON: 12
      #SKULL: 50
      #DAYLIGHT_DETECTOR: 10
-     HOPPER: 30
+     HOPPER: 64
      #REDSTONE_COMPARATOR: 30
      #FLOWER_POT: 20
      #PAINTING: 5
