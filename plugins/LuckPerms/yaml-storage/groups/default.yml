@@ -72,6 +72,27 @@ permissions:
 - shopguiplus.shops.food:
     value: true
     server: skyblock
+- shopguiplus.shops.mobs:
+    value: true
+    server: skyblock
+- silkspawners.place.cow:
+    value: true
+    server: skyblock
+- silkspawners.place.pig:
+    value: true
+    server: skyblock
+- silkspawners.place.sheep:
+    value: true
+    server: skyblock
+- silkspawners.silkdrop.cow:
+    value: true
+    server: skyblock
+- silkspawners.silkdrop.pig:
+    value: true
+    server: skyblock
+- silkspawners.silkdrop.sheep:
+    value: true
+    server: skyblock
 - skinsrestorer.playercmds:
     value: true
     server: skyblock

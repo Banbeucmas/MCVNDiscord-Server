@@ -278,5 +278,61 @@
     "type": "G",
     "actedName": "default",
     "action": "webeditor add essentials.list true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add silkspawners.silkdrop.cow true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add shopguiplus.shops.mobs true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add silkspawners.place.pig true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add silkspawners.silkdrop.pig true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add silkspawners.place.sheep true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add silkspawners.silkdrop.sheep true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532271917,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add silkspawners.place.cow true server\u003dskyblock"
   }
 ]
