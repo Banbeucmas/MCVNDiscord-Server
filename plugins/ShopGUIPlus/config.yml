@@ -550,6 +550,15 @@ shopMenuItems:
         - "&7Mob Farm"
     shop: "mobs"
     slot: 3
+  4:
+    item:
+      material: DISPENSER
+      quantity: 1
+      name: "&5Máy"
+      lore:
+        - "&7Nâng cấp Farm của bạn"
+    shop: "machines"
+    slot: 4
 
 specialElements:
   balance:

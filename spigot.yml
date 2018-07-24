@@ -64,16 +64,16 @@ world-settings:
   default:
     verbose: true
     growth:
-      cactus-modifier: 400
-      cane-modifier: 400
-      melon-modifier: 400
-      mushroom-modifier: 400
-      pumpkin-modifier: 400
-      sapling-modifier: 400
-      wheat-modifier: 400
-      netherwart-modifier: 400
-      vine-modifier: 400
-      cocoa-modifier: 400
+      cactus-modifier: 200
+      cane-modifier: 200
+      melon-modifier: 200
+      mushroom-modifier: 200
+      pumpkin-modifier: 200
+      sapling-modifier: 200
+      wheat-modifier: 200
+      netherwart-modifier: 200
+      vine-modifier: 200
+      cocoa-modifier: 200
     entity-activation-range:
       animals: 32
       monsters: 32

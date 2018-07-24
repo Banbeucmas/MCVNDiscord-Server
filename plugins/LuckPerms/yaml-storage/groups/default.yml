@@ -45,6 +45,12 @@ permissions:
 - essentials.tpaccept:
     value: true
     server: skyblock
+- mantle.place.block_breaker:
+    value: true
+    server: skyblock
+- mantle.place.tree_cutter:
+    value: true
+    server: skyblock
 - quickshop.create.buy:
     value: true
     server: skyblock
@@ -70,6 +76,9 @@ permissions:
     value: true
     server: skyblock
 - shopguiplus.shops.food:
+    value: true
+    server: skyblock
+- shopguiplus.shops.machines:
     value: true
     server: skyblock
 - shopguiplus.shops.mobs:

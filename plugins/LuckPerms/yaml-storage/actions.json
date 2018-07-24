@@ -334,5 +334,29 @@
     "type": "G",
     "actedName": "default",
     "action": "webeditor add silkspawners.place.cow true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532357648,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add mantle.place.tree_cutter true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532357648,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add mantle.place.block_breaker true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532358485,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add shopguiplus.shops.machines true server\u003dskyblock"
   }
 ]
