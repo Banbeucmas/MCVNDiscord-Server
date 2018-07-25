@@ -84,22 +84,10 @@ permissions:
 - shopguiplus.shops.mobs:
     value: true
     server: skyblock
-- silkspawners.place.cow:
+- silkspawners.place.*:
     value: true
     server: skyblock
-- silkspawners.place.pig:
-    value: true
-    server: skyblock
-- silkspawners.place.sheep:
-    value: true
-    server: skyblock
-- silkspawners.silkdrop.cow:
-    value: true
-    server: skyblock
-- silkspawners.silkdrop.pig:
-    value: true
-    server: skyblock
-- silkspawners.silkdrop.sheep:
+- silkspawners.silkdrop.*:
     value: true
     server: skyblock
 - skinsrestorer.playercmds:
