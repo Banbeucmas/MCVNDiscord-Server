@@ -15,8 +15,13 @@
 /plugins/MVdWPlugin
 /plugins/Essentials/userdata
 /plugins/Essentials/warps
+/plugins/ASkyBlock/islandnames.yml
+/plugins/ASkyBlock/islands.yml
+/plugins/ASkyBlock/*.txt
+/plugins/ASkyBlock/warps.yml
 /plugins/ASkyBlock/players
 /plugins/AuthMe/playerdata/*.db
+/plugins/AuthMe/*.db
 /plugins/AuthMe/*.log
 /plugins/LuckPerms/lib
 /plugins/LuckPerms/yaml-storage/users
