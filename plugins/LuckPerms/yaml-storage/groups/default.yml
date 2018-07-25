@@ -15,6 +15,9 @@ permissions:
 - askyblock.coop:
     value: true
     server: skyblock
+- askyblock.island.lock:
+    value: true
+    server: skyblock
 - chatformat.default:
     value: true
     server: skyblock

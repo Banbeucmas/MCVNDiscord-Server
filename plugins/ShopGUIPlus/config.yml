@@ -550,7 +550,7 @@ shopMenuItems:
         - "&7Mob Farm"
     shop: "mobs"
     slot: 3
-  4:
+  5:
     item:
       material: DISPENSER
       quantity: 1

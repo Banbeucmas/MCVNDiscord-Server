@@ -358,5 +358,13 @@
     "type": "G",
     "actedName": "default",
     "action": "webeditor add shopguiplus.shops.machines true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532411797,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "G",
+    "actedName": "default",
+    "action": "webeditor add askyblock.island.lock true server\u003dskyblock"
   }
 ]
