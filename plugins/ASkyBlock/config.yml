@@ -302,11 +302,11 @@ general:
    # 0 = no damage, 10 = default damage, 20 = instant death
    aciddamage: 0
    # Damage that monsters will experience.
-   mobaciddamage: 1
+   mobaciddamage: 0
    # Damage that rain does.
    raindamage: 1
    # Damage that animals will experience in acid.
-   animaldamage: 1
+   animaldamage: 0
    # Damage chickens in acid - true or false - chickens tend to go swimming...
    damagechickens: false
    # Destroy items in water after this many seconds. Timing is variable and may occur
