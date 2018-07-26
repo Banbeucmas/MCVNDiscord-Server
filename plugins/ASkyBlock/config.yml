@@ -302,11 +302,11 @@ general:
    # 0 = no damage, 10 = default damage, 20 = instant death
    aciddamage: 0
    # Damage that monsters will experience.
-   mobaciddamage: 0
+   mobaciddamage: 1
    # Damage that rain does.
-   raindamage: 0
+   raindamage: 1
    # Damage that animals will experience in acid.
-   animaldamage: 0
+   animaldamage: 1
    # Damage chickens in acid - true or false - chickens tend to go swimming...
    damagechickens: false
    # Destroy items in water after this many seconds. Timing is variable and may occur
@@ -315,10 +315,10 @@ general:
    # Items fizz when they are destroyed.
    itemdestroyafter: 0
    # Ops receive damage from acid (Set to true if you want Ops to play properly)
-   damageops: false
+   damageops: true
    # Armor protection.
    # Protect players from acid rain if they have a helmet on
-   helmetprotection: true
+   helmetprotection: false
    # Protect players from all acid if they have a full set of armor on
    fullarmorprotection: false
    # Damage type to apply in addition to acid damage
@@ -326,8 +326,12 @@ general:
    # If you just want these to act, then make the acid damage 0 above
    # Note - these are potion effects and so can be cured by milk
    damagetype:
-   #-confusion
-   
+   - confusion
+   - slow
+   - blindness
+   - hunger
+   - weakness
+   - poison
    # Removing mobs - this kills all monsters in the vicinity. Benefit is that it helps
    # players return to their island if the island has been overrun by monsters
    # Con is that it kills any mob grinders 
