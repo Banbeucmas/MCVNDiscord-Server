@@ -366,5 +366,14 @@
     "type": "G",
     "actedName": "default",
     "action": "webeditor add askyblock.island.lock true server\u003dskyblock"
+  },
+  {
+    "timestamp": 1532568079,
+    "actor": "00000000-0000-0000-0000-000000000000",
+    "actorName": "console@skyblock",
+    "type": "U",
+    "actedName": "Nesfan",
+    "action": "permission set mantle.give true",
+    "acted": "5a5539a3-88b3-39a7-8050-ff21f60d54e1"
   }
 ]
