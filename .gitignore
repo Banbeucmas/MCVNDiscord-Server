@@ -25,6 +25,8 @@
 /plugins/AuthMe/*.log
 /plugins/LuckPerms/lib
 /plugins/LuckPerms/yaml-storage/users
+/plugins/LuckPerms/yaml-storage/*.json
+/plugins/LuckPerms/yaml-storage/*.txt
 /plugins/LuckPerms/*.db
 /plugins/LuckPerms/*.json
 /plugins/PlaceholderAPI/expansions

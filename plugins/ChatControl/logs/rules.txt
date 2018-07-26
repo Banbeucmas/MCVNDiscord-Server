@@ -1,0 +1,1 @@
+[26.07.2018 08:45:39] Acayrin: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 1

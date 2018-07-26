@@ -63,12 +63,23 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
+    growth:
+      cactus-modifier: 200
+      cane-modifier: 200
+      melon-modifier: 200
+      mushroom-modifier: 200
+      pumpkin-modifier: 200
+      sapling-modifier: 200
+      wheat-modifier: 200
+      netherwart-modifier: 200
+      vine-modifier: 200
+      cocoa-modifier: 200
     entity-activation-range:
       animals: 12
       monsters: 24
       misc: 4
       tick-inactive-villagers: true
+    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48
@@ -81,17 +92,6 @@ world-settings:
       hopper-amount: 3
     hopper-amount: 1
     random-light-updates: false
-    growth:
-      cactus-modifier: 200
-      cane-modifier: 200
-      melon-modifier: 200
-      mushroom-modifier: 200
-      pumpkin-modifier: 200
-      sapling-modifier: 200
-      wheat-modifier: 200
-      netherwart-modifier: 200
-      vine-modifier: 200
-      cocoa-modifier: 200
     save-structure-info: true
     dragon-death-sound-radius: 0
     seed-village: 10387312
@@ -120,6 +120,6 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     view-distance: 6
-    zombie-aggressive-towards-villager: true
     hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
